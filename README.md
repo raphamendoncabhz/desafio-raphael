@@ -46,11 +46,21 @@ php artisan key:generate
 
 docker-compose up -d
 
-Realizar as migrações
 
+Opcional (O banco já esta carregado com alguns registros)
+	Realizar as migrações
+	Acesse o container com o seguinte comando: 
 
+	Windows: 	winpty docker exec -it shouts-laravel-app bash
+	Linux: 		docker exec -it shouts-laravel-app bash
 
-## INSTRUÇÕES DE USO  
+	Execute o seguinte comando dentro do container:
+	php artisan migrate:fresh --seed
+	(Elimina todas as tabelas e as constroi novamente alimentando com a Factorie do laravel.)
+
+	
+
+## ENDPOINTS 
 
 Utilizar alguma ferramenta de Requisições Http: ( POSTMAN )
 
