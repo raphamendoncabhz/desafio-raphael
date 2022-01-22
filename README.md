@@ -33,7 +33,7 @@ Após o final do desenvolvimento, crie um repositório público do GIT, hospede 
 
 Clonar o desafio
 
-git clone https://github.com/raphamendoncabhz/laravel-start desafio-raphael
+git clone  https://github.com/raphamendoncabhz/desafio-raphael.git desafio-raphael
 
 cd desafio-raphael
 
@@ -58,7 +58,7 @@ Opcional (O banco já esta carregado com alguns registros)
 	php artisan migrate:fresh --seed
 	(Elimina todas as tabelas e as constroi novamente alimentando com a Factorie do laravel.)
 
-	
+
 
 ## ENDPOINTS 
 
